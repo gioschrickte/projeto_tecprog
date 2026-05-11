@@ -6,6 +6,8 @@
 int main()
 {
     std::cout << "Pinto penis\n";
+    std::cout << "pau rola\n";
+
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
@@ -13,7 +15,7 @@ int main()
 
 // Dicas para Começar: 
 //   1. Use a janela do Gerenciador de Soluções para adicionar/gerenciar arquivos
-//   2. Use a janela do Team Explorer para conectar-se ao controle do código-fonte
+//   2. Use a janela do Team Explorer para conectar-se ao controle do código-fontecd
 //   3. Use a janela de Saída para ver mensagens de saída do build e outras mensagens
 //   4. Use a janela Lista de Erros para exibir erros
 //   5. Ir Para o Projeto > Adicionar Novo Item para criar novos arquivos de código, ou Projeto > Adicionar Item Existente para adicionar arquivos de código existentes ao projeto
