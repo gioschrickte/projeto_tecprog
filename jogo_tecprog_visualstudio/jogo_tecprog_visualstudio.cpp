@@ -7,6 +7,8 @@ int main()
 {
     std::cout << "Pinto penis\n";
     std::cout << "pau rola\n";
+    std::cout << "skibidi hibidi\n";
+
 
 }
 
