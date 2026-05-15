@@ -19,10 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Gerenciadores\Gerenciador_Grafico.cpp" />
+    <ClCompile Include="src\Ente.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Principal.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Ente.h" />
     <ClInclude Include="include\Entidades\Entidade.hpp" />
+    <ClInclude Include="include\Gerenciadores\Gerenciador_Grafico.hpp" />
+    <ClInclude Include="include\Principal.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

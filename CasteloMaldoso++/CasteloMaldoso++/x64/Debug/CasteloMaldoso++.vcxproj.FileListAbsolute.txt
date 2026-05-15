@@ -1,0 +1,3 @@
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\sfml-system-d-3.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\sfml-window-d-3.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\CasteloMaldoso++\x64\Debug\CasteloM.7F37C826.Up2Date

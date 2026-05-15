@@ -1,7 +1,8 @@
 #include <iostream>
-using namespace std;
+#include "../include/Principal.h"
 
 int main()
 {
-	cout << "Hello World!" << endl;
+	Principal principal;
+	return 0;
 }
