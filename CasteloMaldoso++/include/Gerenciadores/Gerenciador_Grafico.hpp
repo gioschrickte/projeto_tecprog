@@ -1,3 +1,4 @@
+#pragma once
 #include "SFML/Graphics.hpp"
 
 class Gerenciador_Grafico
@@ -11,7 +12,7 @@ public:
 	static Gerenciador_Grafico* getGerenciadorGrafico();
 	sf::RenderWindow* getWindow();
 	void limpaJanela();
-	void desenhaElemento(sf::RectangleShape corpo); // Generalizar para Ente
+	void desenhaElemento(sf::RectangleShape& corpo); // Generalizar para Ente
 	void mostraElementos();
 	void fechaJanela();
 	const bool verificaJanelaAberta();

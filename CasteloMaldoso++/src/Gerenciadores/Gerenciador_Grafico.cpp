@@ -1,6 +1,8 @@
-#include "../include/Gerenciadores/Gerenciador_Grafico.hpp"
+#include "../../include/Gerenciadores/Gerenciador_Grafico.hpp"
 #include <iostream>
 using namespace std;
+
+Gerenciador_Grafico* Gerenciador_Grafico::pGrafico(nullptr);
 
 Gerenciador_Grafico::Gerenciador_Grafico()
 	: window(new sf::RenderWindow(sf::VideoMode({ 800, 600 }), "Castelo++"))
@@ -10,7 +12,6 @@ Gerenciador_Grafico::Gerenciador_Grafico()
 		cerr << "ERRO: Falha na criação de janela gráfica!\n" << endl;
 		exit(1);
 	}
-	pGrafico = this;
 }
 
 Gerenciador_Grafico::~Gerenciador_Grafico()
@@ -26,8 +27,9 @@ Gerenciador_Grafico* Gerenciador_Grafico::getGerenciadorGrafico()
 {
 	if (pGrafico == nullptr)
 	{
-		return new Gerenciador_Grafico();
+		pGrafico = new Gerenciador_Grafico();
 	}
+	return pGrafico;
 }
 
 sf::RenderWindow* Gerenciador_Grafico::getWindow()
@@ -40,7 +42,7 @@ void Gerenciador_Grafico::limpaJanela()
 	window->clear();
 }
 
-void Gerenciador_Grafico::desenhaElemento(sf::RectangleShape corpo)
+void Gerenciador_Grafico::desenhaElemento(sf::RectangleShape& corpo)
 {
 	window->draw(corpo);
 }
@@ -50,7 +52,7 @@ void Gerenciador_Grafico::mostraElementos()
 	window->display();
 }
 
-void Gerenciador_Grafico::limpaJanela()
+void Gerenciador_Grafico::fechaJanela()
 {
 	window->close();
 }
@@ -59,3 +61,4 @@ const bool Gerenciador_Grafico::verificaJanelaAberta()
 {
 	return window->isOpen();
 }
+

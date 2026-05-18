@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Gerenciadores\Gerenciador_Grafico.cpp" />
     <ClCompile Include="src\Ente.cpp" />
+    <ClCompile Include="src\Gerenciadores\Gerenciador_Grafico.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Principal.cpp" />
   </ItemGroup>

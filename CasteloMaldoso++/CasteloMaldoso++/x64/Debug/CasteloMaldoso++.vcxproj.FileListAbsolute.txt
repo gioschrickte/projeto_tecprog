@@ -1,3 +1,10 @@
 C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\sfml-system-d-3.dll
 C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\sfml-window-d-3.dll
 C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\CasteloMaldoso++\x64\Debug\CasteloM.7F37C826.Up2Date
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\sfml-graphics-d-3.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\freetyped.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\zd.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\bz2d.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\libpng16d.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\brotlidec.dll
+C:\Users\gssar\Documentos\Estudos\UTFPR\tecprog\projeto_tecprog\CasteloMaldoso++\x64\Debug\brotlicommon.dll

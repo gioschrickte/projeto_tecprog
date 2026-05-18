@@ -9,8 +9,14 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Ente.cpp" />
+    <ClCompile Include="src\Principal.cpp" />
+    <ClCompile Include="src\Gerenciadores\Gerenciador_Grafico.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Entidades\Entidade.hpp" />
+    <ClInclude Include="include\Ente.h" />
+    <ClInclude Include="include\Gerenciadores\Gerenciador_Grafico.hpp" />
+    <ClInclude Include="include\Principal.h" />
   </ItemGroup>
 </Project>
