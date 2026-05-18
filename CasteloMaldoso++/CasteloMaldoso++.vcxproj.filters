@@ -4,19 +4,54 @@
     <Filter Include="src">
       <UniqueIdentifier>{f38c194a-3f1f-48bb-a3e0-a5c29484584b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{119fd4e0-3f6f-4b88-a64f-e5021035e11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gerenciadores">
+      <UniqueIdentifier>{132b27a3-2e84-4c24-bc54-03ca076f15da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gerenciadores">
+      <UniqueIdentifier>{f923ea21-b289-4835-901e-eb07a1263d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\entidades">
+      <UniqueIdentifier>{d2b3bd70-ae70-4141-9077-aa2d9eaff2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\entidades">
+      <UniqueIdentifier>{19c08b07-a82f-47a6-a5a0-ef5ee0387859}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Ente.cpp" />
-    <ClCompile Include="src\Principal.cpp" />
-    <ClCompile Include="src\Gerenciadores\Gerenciador_Grafico.cpp" />
+    <ClCompile Include="src\Gerenciadores\Gerenciador_Grafico.cpp">
+      <Filter>src\gerenciadores</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ente.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Principal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gerenciadores\Gerenciador_Eventos.cpp">
+      <Filter>src\gerenciadores</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Entidades\Entidade.hpp" />
-    <ClInclude Include="include\Ente.h" />
-    <ClInclude Include="include\Gerenciadores\Gerenciador_Grafico.hpp" />
-    <ClInclude Include="include\Principal.h" />
+    <ClInclude Include="include\Ente.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Principal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entidades\Entidade.hpp">
+      <Filter>include\entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gerenciadores\Gerenciador_Grafico.hpp">
+      <Filter>include\gerenciadores</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gerenciadores\Gerenciador_Eventos.hpp">
+      <Filter>include\gerenciadores</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

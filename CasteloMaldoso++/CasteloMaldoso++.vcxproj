@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Ente.cpp" />
+    <ClCompile Include="src\gerenciadores\Gerenciador_Eventos.cpp" />
     <ClCompile Include="src\Gerenciadores\Gerenciador_Grafico.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Principal.cpp" />
@@ -27,6 +28,7 @@
   <ItemGroup>
     <ClInclude Include="include\Ente.h" />
     <ClInclude Include="include\Entidades\Entidade.hpp" />
+    <ClInclude Include="include\Gerenciadores\Gerenciador_Eventos.hpp" />
     <ClInclude Include="include\Gerenciadores\Gerenciador_Grafico.hpp" />
     <ClInclude Include="include\Principal.h" />
   </ItemGroup>
