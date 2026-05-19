@@ -3,7 +3,7 @@
 
 class Ente
 {
-private:
+protected:
 	int id;
 	static int cont_id;
 	static Gerenciador_Grafico* pGG;
