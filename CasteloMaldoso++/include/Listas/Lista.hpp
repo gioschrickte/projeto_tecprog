@@ -1,7 +1,8 @@
-namespace Listas
-{
+#pragma once
 #include <iostream>
 
+namespace Listas
+{
     template <typename TL>
     class Lista {
     private:
@@ -80,6 +81,11 @@ namespace Listas
             }
             pPrimeiro = nullptr;
             pUltimo = nullptr;
+        }
+
+        Elemento* getPrimeiro()
+        {
+            return pPrimeiro;
         }
     };
 }

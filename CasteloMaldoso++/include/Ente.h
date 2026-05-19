@@ -13,4 +13,8 @@ public:
 	virtual ~Ente();
 	void desenhar();
 	static void setGG(Gerenciador_Grafico* pG);
+	int getId()
+	{
+		return id;
+	}
 };

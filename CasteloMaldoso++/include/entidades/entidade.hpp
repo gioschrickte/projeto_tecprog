@@ -1,3 +1,5 @@
+#pragma once
+
 #include "../Ente.h"
 
 namespace Entidades
@@ -6,10 +8,9 @@ namespace Entidades
 	{
 	protected:
 		sf::Vector2i pos;
-		int x;
-		int y;
 	public:
 		Entidade();
+		Entidade(sf::Vector2i p);
 		~Entidade();
 		virtual void executar() = 0;
 		// Falta persistência de classe -> arquivo de salvamento
